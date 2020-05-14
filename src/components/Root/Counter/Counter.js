@@ -36,9 +36,11 @@ const CounterValue = styled.strong`
 const Logo = styled.div`
   background-image: url("https://codepipeline-counter-demo-univo.s3.amazonaws.com/univologo.jpeg");
   background-color: #cccccc;
+  height: 192px;
+  width: 192px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 192px 192px;
+  background-size: cover;
   position: relative;
 `;
 
