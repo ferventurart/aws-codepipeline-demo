@@ -33,6 +33,16 @@ const CounterValue = styled.strong`
   margin-bottom: 0.375em;
 `;
 
+const Logo = style.div`
+  background-image: url("https://www.univo.edu.sv/wp-content/uploads/2019/09/lo2.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+`;
+
 const Counter = () => {
   const [counter, dispatch] = useReducer(
     (counter, addAmount) => counter + addAmount,
@@ -41,6 +51,7 @@ const Counter = () => {
 
   return (
     <div>
+    <Logo></Logo>
       <CounterValue data-testid="counter-value">Count: {counter}</CounterValue>
       <ButtonRow>
         <Button onClick={() => dispatch(-2)}>-2</Button>
