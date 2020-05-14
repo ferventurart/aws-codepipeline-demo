@@ -33,7 +33,7 @@ const CounterValue = styled.strong`
   margin-bottom: 0.375em;
 `;
 
-const Logo = style.div`
+const Logo = styled.div`
   background-image: url("https://www.univo.edu.sv/wp-content/uploads/2019/09/lo2.png");
   background-color: #cccccc;
   height: 500px;
