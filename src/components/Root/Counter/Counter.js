@@ -55,10 +55,12 @@ const Counter = () => {
     <Logo></Logo>
       <CounterValue data-testid="counter-value">Count: {counter}</CounterValue>
       <ButtonRow>
+        <Button onClick={() => dispatch(-2)}>-3</Button>
         <Button onClick={() => dispatch(-2)}>-2</Button>
         <Button onClick={() => dispatch(-1)}>-1</Button>
         <Button onClick={() => dispatch(1)}>+1</Button>
         <Button onClick={() => dispatch(2)}>+2</Button>
+        <Button onClick={() => dispatch(2)}>+4</Button>
       </ButtonRow>
     </div>
   );
