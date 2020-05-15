@@ -34,10 +34,10 @@ const CounterValue = styled.strong`
 `;
 
 const Logo = styled.div`
-  background-image: url("https://codepipeline-counter-demo-univo.s3.amazonaws.com/reactlogo.png");
+  background-image: url("https://codepipeline-counter-demo-univo.s3.amazonaws.com/LogosRecurso-8.png");
   background-color: #cccccc;
-  height: 391px;
-  width: 321px;
+  height: 217px;
+  width: 577px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,7 +56,7 @@ const Counter = () => {
       <CounterValue data-testid="counter-value">Count: {counter}</CounterValue>
       <ButtonRow>
         <Button onClick={() => dispatch(-1)}>-1</Button>
-        <Button onClick={() => dispatch(2)}>+1</Button>
+        <Button onClick={() => dispatch(1)}>+1</Button>
       </ButtonRow>
     </div>
   );
